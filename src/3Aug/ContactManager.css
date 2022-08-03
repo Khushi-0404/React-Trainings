@@ -1,0 +1,62 @@
+body{
+    background-image: url("data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N//AABEIAIUA7AMBIgACEQEDEQH/xAAZAAADAQEBAAAAAAAAAAAAAAAAAgMBBAX/xAAjEAEBAQABBQADAQADAAAAAAAAAQIRAwQSYXEUIVExE2Jy/8QAGQEBAQEBAQEAAAAAAAAAAAAAAAECAwYE/8QAGBEBAQEBAQAAAAAAAAAAAAAAAAERAhL/2gAMAwEAAhEDEQA/AK4i2YXOVsR4i16I2Mq5yzMWzHO1kZyrnIzFMxytBnKkyMxSRnQsybxNIaRnQkybxPI3hLRPxHirwOE0S8GeK3A8TRDxLcOiwty1o57gly6bklyujm1hPWHXcp6y1KOTWEddN26ylvLcquHfTR3h3ayhvLrOiOHfTQ303fvKHUy6zppwb6aVx+3bvKVzP46zoerlbEJhXL5LUUzFckyrhztQ+IrmEyplztQ+YeFyeMhpDQsPEGyG4ZDM6rG8CNQZwzgwAnDLD0tUJYWxSlsWCWonqLUlalRDUS1P26LE9RqUc28o7y6dxLUdJVcm8o7y6txHcdZVcm8pXP7dO4lZ+3WVXdlbCWVsuFRXKuUsq5c6iuf8PlPNUyxRTJ4TNPGA8NCQ8qVcNDFlayY2NZAGGYwBgZWstDC1lbS1TC0lPSVqGJ6T0ppOtREtJaW0lpuCG4juL7iO46RXPqJWftfURv8ArrKrryrhHKuXOi2Vc1GK5c6iuapmpZqmWKKZPKnDysCkppSQ0rIcyfJuUU/I5LKOUDBnLOQNWVlrOVRpaLS2gykrbS1qBano9T01AmktKaS03BLaWldJadYqOkb/AKttK/66QXyrlHNVjFVaK5qGaplzqLZqkqMPmsUWlPKlKaVgVlPKlKaJRTk0qcreWRTkSk5HIKcs5LyOUDcstLyy1QxazllqgtJaLS2rBlJa21O1qDNJaPqparpAmktqaqWnSKlpOqbqTpBXFVzUM1TNZq4vmqZqOapK51FpTyoynzWKLSmlSlPKzRWU0qUp+WBTk3KXLeUxcU5bynK3lDD8jknI5DD8stJay1TD8k5ZyzlYYLS2i0lqoLSWttT1W4M1U9U1qeq1Auqlqn1UtV0i4TVTprScusMPmnzVs9nPamez+sXqGxHN9qS+1s9nP+x52c9udsTYlKeVadpPZ52k9sWxdiMvs80tO0ns07T6zbE2Iytml52v007T6zsNiPkOV/xfrfxvqLsQ8m+S/wCN9bO2+obHPyOXT+N9Z+L70Gxz8s8nR+L70PxfobHN5F5dX4v0t7X6psctpbXV+L9Le1+tSw2OS0l07L2n0l7T61LE2OPVT1Xbe0+p67T63LDY4tVK6d2u0+p67P63LF2OHVT5d2uz/wDSf4f10nUPUe9OjP4fPR9LzJ5l8euSE6Xo86S8yaRNEJ0jzpelpDSJojOn6NOn6Vkbwhqf/HP43w9KcRqJqfg3wikAmp+EHhFJG8BqfhB4RQCbUvCDwV4HAupeEL4T+LCwNQ/45/GXpT+Ls4guue9L0W9L06eGWKuuW9H0S9H07OCWLKOK9Gfwmuj6d1yW5a0cGuh6TvQ9O/WS+C6h4eAMhoaAAY0AZo2NAAAAQN5aAorOWgQcjkABaJQADOQAYABQUAUUlAIMpKA0FpQFH//Z");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+}
+.card{
+    margin-top: 40px;
+    height: 250px;
+    width:  250px;
+    margin: 20px;
+    border: 3px solid black;
+    border-radius:10%;
+    background-image: url("data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N//AABEIAIUA1QMBIgACEQEDEQH/xAAaAAEAAwEBAQAAAAAAAAAAAAADAAIEAQUH/8QAIRABAQEAAgEFAQEBAAAAAAAAAAIBAxIRBBMhMVFhQRT/xAAXAQEBAQEAAAAAAAAAAAAAAAAAAQIE/8QAFhEBAQEAAAAAAAAAAAAAAAAAABEB/9oADAMBAAIRAxEAPwD53EHjjV42njl045tHnEvnCfJLM4sSs08JZ4WiYwsxn4sKzTwEn07XPHn4WePCJWOfT/wmenbZ4sLPFn4uYVgz0y2emejPFn4vnDn4sSvN/wCX+J/zPU9nE9nCFeVvpnN9M9beHPxSuLPwhXk76bB16f8Aj1q4s/B1xYQrya9P/B1wfx6tceCrjz8Zi15dcA94XpVGfgq4yLXnVwqbxN9QOoxIVhriFUN1SC5NxWPZ+UXrPlGVX4mvjY+LWvj3GsTWmSSKSS0yeSyGTSIeDT/gYPChYzCzg4NP0qLzhMxWSyImSnXF8xPCg9lSsNo6QDWYGsw9BsUFYG8PYLQDYaNYbRRULSUGhR2z8n+ntm5N+0aZ6+3HK+0YVbiauPWPh1r49aw1pnSzoZ0k60zrRGnjWaNPGjJ41ojWaNPGqNE6aWeNNGriNElkM6TNAsrapmu+VRzR1q1aOtQHW/Yb0taGtFHegvS3oL1FFehsl6C9QHWirV60VaKpes3Jv2e9ZuTU1pnrflFb35dYVOLWrj1k4/pp49XBqjSTrPOmnWmWiNPGss6aNVGqdNGssUaaEa4000yRRopRqmi5rLNEmlRqyk7Ayne4E3R7qu0pVAl0GtdqhVSCt6GtWvQ1qKpehvVr0NaKrWhrV60VaiqXrNyGrQcmorPX2jlb8owqcetUaycbROtYNM6SdZ50k60jROnjWSaNNA1TRopkmizSsxsmizTJNFmxGqaJNMs2vlg05bvdmy02waNtSrDtuVYLVQ7pWrHVgl2KqSrDVipdBrXaoVUiq1o61KodaK5ehvV60Nb9pVwVfbjlb8owrvHp41m4zzq4abNXnQ5q+a1jJ50k0zzq+Uo1zRJplmyTQjXNEymSaJNg1za2Wy5a2X8iNXdO7P3Tuofbcqwd1dsC7Y6pSrHtoq9UKqVqh1QLVQapNodaKlaPdStV8oqVoa37X3R3/qAa35RWvt1lXeM0/QOPTTq4aTNdzVHfKoXNXygZq2ao0TRJpmyl8oRqml8plyl8oGnLWy2bKW7KNHdO7P3d7CH7q7Ye7m2KXbV2hdldpBfaHtK7Sm0KtVD3XNpTdBbdV8ueXPKCbql/S3kd6At+0c37RlpOPTzrNGlmjE03lPI+ydv6qE8u5ouzvZQ2Uvls/Z3LBpy1spl7u+4Ua8t3uyZyO+4tI15abbL7ie4UjT7jndn9xz3CkaNtXaZ95HO6B9tXbDtubQF7K7o+zncCeU8j7f1O39BfdUrXOytUlXFK+3HN35RlpSdXzURRbNc86iIJ513triKjvbU7aiA7213tqIKnbXe+ogid9TvqICd9c7aiAnbXO2ogJ21ztqIKnbXPOogiedTzqICeVd3URFU8oiA//9k=");
+    background-size: cover;
+   
+}
+.h-3{
+    text-align: center;
+}
+.username,.email,.phone{
+    width: 100%;   
+        margin: 8px 0;  
+        padding: 12px 20px;   
+        display: inline-block;   
+        border: 2px solid green;   
+        box-sizing: border-box;
+}
+.form{
+    border: 3px solid #f1f1f1;   
+    width:50%;
+    margin-left: 25%;
+    }   
+.button-add{
+    background-color: #4CAF50;   
+       width: 100%;  
+        color: orange;   
+        padding: 15px;   
+        margin: 10px 0px;   
+        border: none;   
+        cursor: pointer;   
+}
+.button-update{
+    background-color: #bd4747;   
+       width: 100%;  
+        color: blue;   
+        padding: 15px;   
+        margin: 10px 0px;   
+        border: none;   
+        cursor: pointer;   
+}
+
+.heading-1,.msg{
+    text-align: center;
+}

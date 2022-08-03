@@ -1,17 +1,21 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+//import MainApp from './App';
 
+import ContactManager from './3Aug/ContactManager';
+//import App from './2Aug/App'
+//mport App from './1Aug HOC/App';
+/*import Mounting from './29July LCM/Mounting';*/
+//import Update from './29July LCM/Update';
+//import Complete from './Task2/Task2';
+//import { ComponentLogin } from './28July Task1/ComponentLogin';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
+  
+  <ContactManager/>
+
+  
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+
+

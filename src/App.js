@@ -1,25 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
-
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+import {BrowserRouter,Link,Route,Routes} from 'react-router-dom'
+import ContactManager from './3Aug/ContactManager';
+import App from "./28July_Task2/App"
+import './App.css'
+function MainApp(){
+  return(
+    <div>
+      <BrowserRouter>
+      <nav>
+      
+      <button className='search'><Link to='/search'>Contact Manager</Link></button>
+      <button className='counter'><Link to='/counter'>Counter</Link></button>
+      
+      </nav>
+      <Routes>
+        <Route path='/search' element={<ContactManager></ContactManager>}></Route>
+        <Route path='/counter' element={<App></App>}></Route>
+      </Routes>
+      </BrowserRouter>
+   
     </div>
-  );
+  )
 }
-
-export default App;
+export default MainApp;

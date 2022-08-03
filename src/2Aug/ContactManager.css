@@ -1,0 +1,24 @@
+body{
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N//AABEIAIcA2AMBIgACEQEDEQH/xAAaAAEAAwEBAQAAAAAAAAAAAAADAAIEAQUH/8QAIBABAQEBAQABBQEBAAAAAAAAAAIBAxIRBBMxUWEUIf/EABcBAQEBAQAAAAAAAAAAAAAAAAABAgT/xAAWEQEBAQAAAAAAAAAAAAAAAAAAEQH/2gAMAwEAAhEDEQA/APncwaObnPGmJdOObR5yXzkeZJM4sSs88STxaZjCzGLCss8CT9O1zGfos88IlZJ+nXz6dtnlhZ5Z+lhWDPpl/wDM9CeWfpfOOfpYleb/AJv47/mepnFPs/whXlb9M5v0z1t4q7yz9EK8jfpsUr6d61cs/Q65Z+iFeTX0/wDB19O9WuWCrnn6Zi15dcB1wenXPP0KoItebXHFN5N9QOoSFYd5Drm3VAbki1huUL1xGVTk182Pk189axNaZJIp/BJaZNOGkMGkQ0GnAweFCxhpwUGhUXnCTisFkEyXfK2O/CoPZU2TapqAazA1mHoNigvBXmHoFoBsNGsNiioNFoNIDsHQ1A6I1jN1/KK9N/6jOtOcmrnrHy1r5rhrTOlnQzpJ1pnWidNDPGmjRlojTxrPGmjVGiTQCNNGqh5LIZ0uaBcWUzXflUTR0tWjrUFKDZK0VaKKtDelvQXqKK9DekvQ3qAq0VaStDWiqVrP0NWs/TU1cZ+v5RXqjGtK8tauesnP8NPPVwao0k6CdLOtMtEaaNZp00aqNU6aNZYo00I1Rp41kijRSjVOlzWWaJNKjVNO/LPlLewJujrVdpTaB29DWu1QqpBW9BWr3oa0VW9Ber3oL1BWtDWr1oa1Glb0HTS3oOmorP1dU6a6zqq89aY1k5tE6uDTOknWedJOtI0zRo1lnSzQjVOmimSaNNKka5osUyTRZsRrmiTTJNkywact32zZbvv+gfbU2xbau2C+0OqVqx1QO1YapKoVWDl0G6dqhVqNOXoq126FWipWgvV60V6lMD01Fen5RnWnOZ41m56edMTTZpJ0OatmtB50s0zTpMpUapos0yzRJoRrmiTTJNL5YRrmyZbJlLe1Rq9u+2b2nsRo21dsPtXbAu2OqU2h7YuYvVDrVaodUix2qFVOVQ6oVK0dalapuoJujrXd1StRRdNcc6ajOrjnM+M/M0rhpc13NUd+VQmaSaBmrZqjRNEmmbKXyhGmaJlMs2vlA05a3tmylvSo0+09s/pPQNHtXbD6c2wLtqbQ9pXaFXqh7StUptILVQ6pyqU3RXd1XdV3XN1NHd1XXflWgDaOWjOq5z00s8aWdMNMg/Tvy0i/y7mj9J6A2UvlM+U7lA05S2UzZTudAastbL/rLnRPuYtGr277/rL7d9lI0e/657Z/bn3CjR7V2wfcc20DbSu0Hbc9ATaV3VPTnoF/lPlT5T5Bb5VrXN1WtQUtFb1EaHNL5SIKtlOekRET077RFInvXfeogRPeu+0QV327nREET7mp9zUQE+659zUQE+45togOe096iCue09ogjnpPSICenNpERVNpEQH/2Q==);
+}.Container{
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+}
+.card{
+    margin-top: 40px;
+    height: 250px;
+    width:  250px;
+    margin: 20px;
+    border: 3px solid black
+   
+}
+.Manager,.attn-msg{
+    text-align: center;
+}

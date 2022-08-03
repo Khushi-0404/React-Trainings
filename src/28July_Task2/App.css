@@ -1,0 +1,17 @@
+.btn-1,.btn-2{
+    color:blue;
+
+    
+}
+.btn-1:hover,.btn-2:hover{
+    transform: scale(1.5);
+    box-shadow: 5px 5px 5px 2px red;
+
+}
+.btn-2{
+    margin-left: 5%;
+}
+.container{
+    box-sizing: border-box;
+
+}
