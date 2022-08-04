@@ -1,8 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-//import MainApp from './App';
+import App from './4Aug/App'
 
-import ContactManager from './3Aug/ContactManager';
+//import MainApp from './App';
+//import ContactManager from './3Aug/ContactManager';
 //import App from './2Aug/App'
 //mport App from './1Aug HOC/App';
 /*import Mounting from './29July LCM/Mounting';*/
@@ -12,7 +13,7 @@ import ContactManager from './3Aug/ContactManager';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   
-  <ContactManager/>
+  <App></App>
 
   
 );
