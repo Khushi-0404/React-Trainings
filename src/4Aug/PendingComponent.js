@@ -28,7 +28,7 @@ class PendingComponent extends React.PureComponent{
                             <div className="capsule">
                             <div className="right">50%</div>
                             </div>
-                            <h4>{item.taskdesc}</h4>
+                            <h5>{item.taskdesc}</h5>
                             <button className='btn btn-primary' onClick={()=>changeCompletion(item.id)}>mark completed</button>
                             <button className='btn btn-primary'onClick={()=>deleteTask(item.id)}>move to trash</button>
                         </div>

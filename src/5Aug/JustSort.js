@@ -2,6 +2,7 @@ import React from 'react'
 import response from './response'
 import Header from './Header'
 import TableData from './TableData'
+import './LeaderBoard.css'
 class JustSort extends React.Component{
     constructor(props){
         super(props)
@@ -13,9 +14,8 @@ class JustSort extends React.Component{
         static getDerivedStateFromProps(props, state) {
             console.log("get derived");
             if(props.value === 1) {
-                // name
                 const sorteddata=[...response.list].sort((a,b)=>a.name.localeCompare(b.name))
-                console.log(sorteddata);
+                //console.log(sorteddata);
                 return ({data:sorteddata})
             } 
     
@@ -39,7 +39,7 @@ class JustSort extends React.Component{
         return(
             <div>
                 <Header value={this.props.value}></Header>
-                <h2>Sorted based on {this.props.userkey} </h2>
+                <h2 className='Head'>Sorted based on {this.props.userkey} </h2>
                 <TableData tabledata={this.state.data}></TableData>
             </div>
         )

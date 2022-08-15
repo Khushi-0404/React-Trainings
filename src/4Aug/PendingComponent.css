@@ -9,7 +9,7 @@
 }
 .card{
     margin-top: 40px;
-    height: 200px;
+    height: 300px;
     width:  250px;
     margin: 20px;
     border: 3px solid black;
@@ -40,7 +40,7 @@
     text-align: center;
 }
 .capsule{
-    height: 20px;
+    height: 30px;
   width: 100px;
   margin: 0 auto;
   background:gray;
@@ -50,7 +50,8 @@
 }
 .right {
     border-radius: 80px ;
-    height:20px;width:50%;
+    height:23px;
+    width:50%;
     background-color: black;
     color:aquamarine
   }

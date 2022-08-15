@@ -15,6 +15,7 @@ class TableData extends React.Component{
                                 <th className="name">Name</th>
                                 <th className="age">Age</th>
                                 <th className="scores">Score</th>
+                                <th className="rating">Ratings</th>
 
                             </tr>
             </thead>
@@ -26,6 +27,14 @@ class TableData extends React.Component{
                                         <td >{item.name}</td>
                                         <td >{item.age}</td>
                                         <td >{item.points}</td>
+                                        <td>
+                                    
+                                        <span className="fa fa-star checked"></span>
+                                        <span className="fa fa-star checked"></span>
+                                      <span className="fa fa-star checked"></span>
+                                     <span className="fa fa-star"></span>
+                                       <span className="fa fa-star"></span>
+                                      </td>
                         </tr>
                     ))
                 }
